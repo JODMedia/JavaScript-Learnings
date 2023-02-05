@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Learning</title>
 
-</head>
-<body>
+    <script>
+      // Erklærer
+      var myVariable;
+      // Tildeler (assigner)
+      myVariable = "Hello, world!";
+      // Udskriver myVariable som en alert
+      alert(myVariable);
+      // Declare and assignment
+      var myVariable = "Hello, world!";
+      var otherVariable = "Well, hello, world!";
+      alert(myVariable);
+      alert(otherVariable);
+      // Kun 1 værdi
+      otherVariable = "Overwrite";
+    </script>
+  </head>
+  <body>
     <h1>JavaScript Learning</h1>
     <script>
-        // Write
-        document.write("<h3>Hello, world!</h3>");
+      // Write
+      document.write("<h3>Hello, world!</h3>");
     </script>
     <script>
-         // Alert
-         alert("JavaScript Learning");
+      // Alert
+      alert("JavaScript Learning");
     </script>
-</body>
+
+    <p id="myP">Dette er noget tekst</p>
+    <script>
+      // DOM
+      alert(document.getElementById("myP").innerHTML);
+    </script>
+    <h3>JavaScript Learning</h3>
+  </body>
 </html>
