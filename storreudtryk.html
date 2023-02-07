@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var x = 15;
+      var y = 2;
+      var z = 7;
+
+      if (x > y && x > z) document.write("<h1>X er størst</h1>");
+    </script>
+
+    <script>
+      var x = 5;
+      var y = 2;
+      var z = 7;
+
+      if (x > y && x > z) document.write("<h1>X er størst</h1>");
+      else document.write("<h1>X er ikke størst</h1>");
+    </script>
+
+    <script>
+      var x = 5;
+      var y = 2;
+      var z = 7;
+
+      if (x > y || x > z) document.write("<h1>X er størst</h1>");
+      else document.write("<h1>X er ikke størst</h1>");
+    </script>
+
+    <script>
+      var x = 5;
+      var y = 5;
+      var z = 5;
+
+      if (x == y && x == z && y == z) document.write("<h1>Alle er ens</h1>");
+      else document.write("<h1>De er ikke ens</h1>");
+    </script>
+
+    <script>
+      var dice = 4;
+
+      switch (dice) {
+        case 1:
+          alert("ener");
+          break;
+        case 2:
+          alert("toer");
+          break;
+        case 3:
+          alert("treer");
+          break;
+        case 4:
+          alert("firer");
+          break;
+        default:
+          alert("What?");
+      }
+
+      //if (dice == 1) alert("ener");
+      //else if (dice == 2) alert("toer");
+      //else if (dice == 3) alert("treer");
+      //else if (dice == 4) alert("firer");
+    </script>
+  </body>
+</html>
