@@ -3,7 +3,9 @@
   <head>
     <script>
       function changeElement() {
-        document.getElementById("p1").innerHTML = "noget helt andet";
+        var p1 = document.getElementById("p1");
+        p1.innerHTML = "noget helt andet";
+        p1.style.fontSize = "50px";
       }
     </script>
   </head>
