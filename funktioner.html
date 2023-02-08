@@ -5,6 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <script>
+
+      var colors = ["black", "white", "blue", "yellow"];
+
+      function changeColor(element, color); {
+          element.style.backgroundColor = color;
+      }
+    </script>
   </head>
-  <body></body>
+  <body>
+    <button
+      onMouseOver="changeColor(this, colors[2])"
+      onMouseOut="changeColor(this, colors[3])"
+    >
+      Hello master
+    </button>
+  </body>
 </html>
