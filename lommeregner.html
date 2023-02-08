@@ -7,8 +7,11 @@
     <title>Document</title>
     <script>
       function performOperation(operator) {
-        var x = parseInt(document.getElementById("txt1").value);
-        var y = parseInt(document.getElementById("txt2").value);
+        // Int = integer = number = Number()
+        var x = Number(document.getElementById("txt1").value);
+        var y = Number(document.getElementById("txt2").value);
+        // var x = parseInt(document.getElementById("txt1").value);
+        // var y = parseInt(document.getElementById("txt2").value);
 
         var result;
         switch (operator) {
